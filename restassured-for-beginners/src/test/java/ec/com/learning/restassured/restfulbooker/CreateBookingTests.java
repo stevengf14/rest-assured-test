@@ -10,6 +10,7 @@ public class CreateBookingTests extends BaseTest {
 
 	@Test
 	public void createBookingTest() {
+		// Create Booking
 		Response response = createBooking();
 		response.print();
 
