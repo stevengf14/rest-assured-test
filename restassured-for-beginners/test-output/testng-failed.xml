@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ec.com.learning.restassured.restfulbooker.GetBookingTests">
+      <class name="ec.com.learning.restassured.restfulbooker.GetBookingIdsTests">
         <methods>
           <include name="setUp"/>
-          <include name="getBookingTest"/>
+          <include name="getBookingIdsWithFilterTest"/>
         </methods>
-      </class> <!-- ec.com.learning.restassured.restfulbooker.GetBookingTests -->
+      </class> <!-- ec.com.learning.restassured.restfulbooker.GetBookingIdsTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
