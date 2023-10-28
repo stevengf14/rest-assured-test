@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-26T22:10:31 ECT" name="Default suite" finished-at="2023-10-26T22:10:34 ECT" duration-ms="2332">
+  <suite started-at="2023-10-27T19:28:06 ECT" name="Default suite" finished-at="2023-10-27T19:28:09 ECT" duration-ms="3179">
     <groups>
     </groups>
-    <test started-at="2023-10-26T22:10:31 ECT" name="Default test" finished-at="2023-10-26T22:10:34 ECT" duration-ms="2332">
-      <class name="ec.com.learning.restassured.restfulbooker.PartialUpdateBookingTests">
-        <test-method signature="partialUpdateBookingTest()[pri:0, instance:ec.com.learning.restassured.restfulbooker.PartialUpdateBookingTests@75329a49]" started-at="2023-10-26T22:10:31 ECT" name="partialUpdateBookingTest" finished-at="2023-10-26T22:10:34 ECT" duration-ms="2297" status="PASS">
+    <test started-at="2023-10-27T19:28:06 ECT" name="Default test" finished-at="2023-10-27T19:28:09 ECT" duration-ms="3179">
+      <class name="ec.com.learning.restassured.restfulbooker.DeleteBookingTests">
+        <test-method signature="deleteBookingTest()[pri:0, instance:ec.com.learning.restassured.restfulbooker.DeleteBookingTests@75329a49]" started-at="2023-10-27T19:28:06 ECT" name="deleteBookingTest" finished-at="2023-10-27T19:28:09 ECT" duration-ms="3152" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partialUpdateBookingTest -->
-      </class> <!-- ec.com.learning.restassured.restfulbooker.PartialUpdateBookingTests -->
+        </test-method> <!-- deleteBookingTest -->
+      </class> <!-- ec.com.learning.restassured.restfulbooker.DeleteBookingTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
