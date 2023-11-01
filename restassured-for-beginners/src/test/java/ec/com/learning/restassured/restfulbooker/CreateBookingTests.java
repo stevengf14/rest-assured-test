@@ -78,7 +78,7 @@ public class CreateBookingTests extends BaseTest {
 		softAssert.assertFalse(depositpaid, "depositpaid in response is not expected");
 
 		String actualCheckin = response.jsonPath().getString("booking.bookingdates.checkin");
-		softAssert.assertEquals(actualCheckin, "2020-03-251", "checkin in response is not expected");
+		softAssert.assertEquals(actualCheckin, "2020-03-25", "checkin in response is not expected");
 
 		String actualCheckout = response.jsonPath().getString("booking.bookingdates.checkout");
 		softAssert.assertEquals(actualCheckout, "2023-03-27", "checkout in response is not expected");
